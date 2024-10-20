@@ -14,9 +14,9 @@ import ImageCarousel from "@/components/Carausel";
 
 import localFont from "next/font/local";
 
-import Banner1 from "../assets/Banner1";
-import Banner2 from "../assets/Banner2";
-import Banner3 from "../assets/Banner3";
+import Banner1 from "../assets/Banner1.png";
+import Banner2 from "../assets/Banner2.png";
+import Banner3 from "../assets/Banner3.png";
 import volunteer from "../assets/volunteer.svg";
 import vol2 from "../assets/vol2.jpg";
 import vol3 from "../assets/vol3.jpg";
