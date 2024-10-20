@@ -13,7 +13,9 @@ module.exports = {
         'blacks': '#2e2e2e',
         'blackstexts': '#1c1c1c',
         'heads': '#474747',
-        'grays': '#ecedee'
+        'grays': '#ecedee',
+        'blue': '#ededee',
+
       },
     },
   },
