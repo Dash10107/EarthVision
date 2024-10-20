@@ -4,6 +4,7 @@ import Image from 'next/image';
 import React, { useContext, useState } from 'react';
 import dashboard from "../../assets/dashboard.svg";
 import { events as eventList } from '@/events';
+import Link from 'next/link';
 
 const Accordion = ({ event }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +33,9 @@ const Accordion = ({ event }) => {
             {isOpen && (
                 <div className="p-6 bg-white text-gray-700">
                     <p><strong>Description:</strong> {event.description || 'No description available.'}</p>
+                    <Link href={`/Events/${event.title}`} className='underline font-bold'>
+                        Visit
+                    </Link>
                 </div>
             )}
         </div>

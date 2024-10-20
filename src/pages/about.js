@@ -33,13 +33,13 @@ const about = () => {
             />
 
             <HeroTexts 
-              heading={"We Are Zucky The Lizard"}
+              heading={"We Are Akhand Bharat!"}
               para={""}
             />
 
-            <div id="textimgcard" className='flex justify-center items-center mx-auto'>
+            <div id="textimgcard" className='flex justify-center mx-auto'>
               <TextImageCard 
-                head={"Our Duo"}
+                head={"WE"}
                 title={"#the_best"}
                 text={text}
                 imageUri={"https://media.sonos.com/images/znqtjj88/production/34735de0ce8535cb9fe2af5a78db26dcb4aaa9f1-2500x2500.png?w=750&q=100&fit=clip&auto=format"}

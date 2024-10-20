@@ -46,8 +46,8 @@ const Footer = () => {
                             x:10
                         }}
                         className={`text-4xl font-bold  ${AktivGroteskBold.className}`}
-                    >ZUCK</motion.p>
-                    <p className={` text-xs text-[#49494a] text-wrap w-[60%] mt-2 `}>Our duo creates the best in class web applications. Zucky the Lizard win's it all!!</p>
+                    >Ready to Take Action?</motion.p>
+                    <p className={` text-xs text-[#49494a] text-wrap w-[60%] mt-2 `}>Join a growing community of eco-conscious individuals. Together, we can protect our planet, one small action at a time.</p>
                 </motion.div>
 
                 <motion.div 
@@ -65,10 +65,10 @@ const Footer = () => {
                 >
                     <p className={` text-white text-lg font-semibold `}>Explore</p>
                     <ul className={` cursor-pointer text-[#49494a] text-sm flex flex-col gap-1 `}>
-                        <li>Home</li>
-                        <li>About</li>
+                        <li>Sign Up</li>
+                        <li>Track My Impact</li>
                         <li>Capabilities</li>
-                        <li>Careers</li>
+                        <li>View Leaderboard</li>
                     </ul>
                 </motion.div>
 

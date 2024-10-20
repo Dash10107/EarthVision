@@ -34,10 +34,7 @@ const CalendarComponent = () => {
 
       // Simple styling for the event text
       const eventStyle = {
-        backgroundColor: '#3174ad', // Light soothing background
-        color: '#FFF', // Darker text for contrast
-        padding: '10px',
-        margin: '5px',
+        color: '#FFF',
         borderRadius: '8px',
         
         display: 'flex',
@@ -46,15 +43,14 @@ const CalendarComponent = () => {
       };
 
       return (
-        <div style={eventStyle} className='flex flex-col h-[4rem]'>
-          <p>{title}</p>
-          <add-to-calendar-button
-              name={title}
-              startDate={moment(start).format('YYYY-MM-DD')}
-              options="['Google']"
-              timeZone="America/Los_Angeles"
-          />
-        </div>
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={EVENT_TITLE}&dates={START_DATE}/{END_DATE}&details={EVENT_DESCRIPTION}&location={EVENT_LOCATION}">
+          <div style={eventStyle} className='flex flex-col text-xs p-2 w-auto mx-2'>
+            <p>{title}</p>
+            <div className='text-xs'>
+                Add to Calendar
+            </div>
+          </div>
+        </a>
       );
     },
   };
@@ -69,10 +65,9 @@ const CalendarComponent = () => {
     return {
       style: {
         backgroundColor,
-        borderRadius: '8px',
-        padding: '10px',
-        border: '1px solid #f09877',
-        margin: '5px',
+        padding: '5px',
+        border: '2px solid #292929',
+        margin: '1px',
       },
     };
   };
@@ -95,15 +90,17 @@ const CalendarComponent = () => {
         ]} 
         />
 
-        <div className="h-[60vh] w-full">
-          <Calendar
-            events={events} 
-            components={components}
-            localizer={localizer}
-            defaultView="month" 
-            defaultDate={new Date()} 
-            dayPropGetter={dayPropGetter}  
-          />
+        <div className='flex justify-center items-center'>
+          <div className="w-screen h-screen md:h-[80vh] md:w-[80vw]">
+            <Calendar
+              events={events} 
+              components={components}
+              localizer={localizer}
+              defaultView="week" 
+              defaultDate={new Date()} 
+              dayPropGetter={dayPropGetter}  
+            />
+          </div>
         </div>
       </div>
     </>

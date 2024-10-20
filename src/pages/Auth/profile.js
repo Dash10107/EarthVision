@@ -7,6 +7,7 @@ import { events } from '@/events';
 
 
 import localFont from "next/font/local"
+import Link from 'next/link';
 
 // Load the fonts
 const AktivGroteskBold = localFont({ 
@@ -117,6 +118,7 @@ const profile = () => {
                   </div>
               </div>
           </div>
+          
           <div className="mt-6 bg-white p-4 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold">Achievement</h3>
             <div className="flex space-x-6 mt-4">
@@ -131,9 +133,14 @@ const profile = () => {
             </div>
 
         </div>
+
+        
         </div>
-
-
+        <Link href={"Dashboard/Dashboard"}>
+          <div className="bg-white p-2 m-2 rounded-lg w-full shadow-lg font-bold text-center">
+            Explore Dashboard
+          </div>
+        </Link>
           {/* Events Section */}
           <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
             {events.slice(0, 5).map((event) => (

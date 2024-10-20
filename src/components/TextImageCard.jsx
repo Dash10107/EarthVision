@@ -76,6 +76,20 @@ const TextImageCard = ({ head, title, text, imageUri, buttonText, direction, dyn
                                     height={1100}
                                     className='rounded-xl z-10 mt-2 md:relative md:-top-56 md:-left-40 hover:scale-150 hover:z-20 transition ease-in-out duration-300'
                                 />
+                                <Image 
+                                    src={"https://rachit-chheda.netlify.app/static/media/HeroImage.ff8c45127080e96bd251.jpg"}
+                                    alt={title}
+                                    width={1100}
+                                    height={1100}
+                                    className='rounded-xl top-0 relative hover:scale-150 hover:z-20 transition ease-in-out duration-300'
+                                />
+                                <Image 
+                                    src={"https://instagram.fbom3-2.fna.fbcdn.net/v/t51.2885-19/428492338_414016871042416_1749677351529197520_n.jpg?_nc_ht=instagram.fbom3-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=rqPcMWb_AoIQ7kNvgHwvWyJ&_nc_gid=2571855ca3504aea90b86ae4b54bdc5f&edm=ALGbJPMBAAAA&ccb=7-5&oh=00_AYCNODEoII8T-4vvKIM7O12_7D7Ek6IwUWn2iKnOww_mFw&oe=671A5C2D&_nc_sid=7d3ac5"}
+                                    alt={title}
+                                    width={1100}
+                                    height={1100}
+                                    className='rounded-xl z-10 mt-2 md:relative md:-top-56 md:-left-40 hover:scale-150 hover:z-20 transition ease-in-out duration-300'
+                                />
                             </div>
                         ) : (
                             <div className='bg-gray-100 p-7 rounded-2xl'>

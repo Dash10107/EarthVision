@@ -1,112 +1,142 @@
 export const events = [
-    {
-      id: 1,
-      title: "Community Park Cleanup",
-      start: new Date(2024, 8, 23, 9, 0), // September 23, 2024, 9:00 AM
-      end: new Date(2024, 8, 23, 12, 0),  // September 23, 2024, 12:00 PM
-      location: "Greenwood Park, Springfield",
-      cause: "Environment",
-      description: "Help clean up the local park by picking up litter, planting trees, and restoring the green spaces for the community.",
-      availableSpots: 15,
-      organizer: "Springfield Green Initiatives",
-    },
-    {
-      id: 2,
-      title: "Food Bank Packaging Drive",
-      start: new Date(2024, 8, 27, 10, 0), // September 27, 2024, 10:00 AM
-      end: new Date(2024, 8, 27, 14, 0),   // September 27, 2024, 2:00 PM
-      location: "City Food Bank, Downtown",
-      cause: "Hunger Relief",
-      description: "Join us in packing food supplies for underprivileged families in the city. Your efforts will help provide meals to those in need.",
-      availableSpots: 25,
-      organizer: "Downtown Food Bank",
-    },
-    {
-      id: 3,
-      title: "Senior Center Game Night",
-      start: new Date(2024, 8, 30, 17, 0), // September 30, 2024, 5:00 PM
-      end: new Date(2024, 8, 30, 19, 0),   // September 30, 2024, 7:00 PM
-      location: "Sunrise Senior Living Center",
-      cause: "Elder Care",
-      description: "Spend the evening playing games and socializing with seniors at the Sunrise Senior Living Center. Your time will brighten their day.",
-      availableSpots: 10,
-      organizer: "Sunrise Senior Living",
-    },
-    {
-      id: 4,
-      title: "Beach Conservation Day",
-      start: new Date(2024, 9, 2, 8, 0),   // October 2, 2024, 8:00 AM
-      end: new Date(2024, 9, 2, 11, 0),    // October 2, 2024, 11:00 AM
-      location: "Sunny Beach, Riverview",
-      cause: "Marine Conservation",
-      description: "Join volunteers in cleaning up the beach and preserving marine life by removing trash and educating the public about conservation.",
-      availableSpots: 30,
-      organizer: "Marine Conservation Society",
-    },
-    {
-      id: 5,
-      title: "School Supplies Donation Drive",
-      start: new Date(2024, 9, 4, 14, 0),  // October 4, 2024, 2:00 PM
-      end: new Date(2024, 9, 4, 16, 0),    // October 4, 2024, 4:00 PM
-      location: "Liberty High School, Auditorium",
-      cause: "Education",
-      description: "Assist in organizing and distributing school supplies to underprivileged students in preparation for the new school year.",
-      availableSpots: 20,
-      organizer: "Liberty Education Foundation",
-    },
-    {
-      id: 6,
-      title: "Animal Shelter Volunteer Day",
-      start: new Date(2024, 9, 6, 11, 0),  // October 6, 2024, 11:00 AM
-      end: new Date(2024, 9, 6, 15, 0),    // October 6, 2024, 3:00 PM
-      location: "Happy Paws Animal Shelter",
-      cause: "Animal Welfare",
-      description: "Help care for rescued animals by feeding, walking, and cleaning their living areas. Your support helps keep them healthy and happy.",
-      availableSpots: 12,
-      organizer: "Happy Paws Rescue Group",
-    },
-    {
-      id: 7,
-      title: "Homeless Shelter Dinner Service",
-      start: new Date(2024, 9, 8, 18, 0),  // October 8, 2024, 6:00 PM
-      end: new Date(2024, 9, 8, 20, 0),    // October 8, 2024, 8:00 PM
-      location: "Hope Haven Homeless Shelter",
-      cause: "Homelessness",
-      description: "Serve a warm meal to those in need at the Hope Haven Shelter. Connect with people and make a difference in their lives.",
-      availableSpots: 18,
-      organizer: "Hope Haven Shelter",
-    },
-    {
-      id: 8,
-      title: "Tree Planting for Future Generations",
-      start: new Date(2024, 9, 10, 9, 0),  // October 10, 2024, 9:00 AM
-      end: new Date(2024, 9, 10, 13, 0),   // October 10, 2024, 1:00 PM
-      location: "Riverdale Forest",
-      cause: "Reforestation",
-      description: "Join our tree planting initiative to help restore local forests and create a greener environment for future generations.",
-      availableSpots: 40,
-      organizer: "Forest Restoration Society",
-    },
-    {
-      id: 9,
-      title: "Youth Tutoring Program",
-      start: new Date(2024, 9, 13, 16, 0), // October 13, 2024, 4:00 PM
-      end: new Date(2024, 9, 13, 18, 0),   // October 13, 2024, 6:00 PM
-      location: "Central Community Center",
-      cause: "Youth Education",
-      description: "Volunteer to tutor kids in various subjects, helping them achieve academic success. No prior teaching experience required.",
-      availableSpots: 8,
-      organizer: "Central Youth Initiative",
-    },
-    {
-      id: 10,
-      title: "Disaster Relief Fundraiser",
-      start: new Date(2024, 9, 15, 13, 0), // October 15, 2024, 1:00 PM
-      end: new Date(2024, 9, 15, 17, 0),   // October 15, 2024, 5:00 PM
-      location: "Eastside Community Hall",
-      cause: "Disaster Relief",
-      description: "Assist in organizing a fundraiser for recent disaster relief efforts. Your help in coordinating the event will support affected families.",
-      availableSpots: 20,
-      organizer: "Eastside Disaster Relief Team",
-    }
+  {
+      "id": 1,
+      "title": "Community Park Cleanup",
+      "start": new Date(2024, 8, 23, 9, 0),
+      "end": new Date(2024, 8, 23, 12, 0),
+      "location": "Greenwood Park, Springfield",
+      "cause": "Environment",
+      "description": "Join us for a rewarding day of community service as we gather at Greenwood Park for a Community Park Cleanup. This initiative aims to enhance the beauty of our local green spaces and promote environmental sustainability. We invite volunteers of all ages to come together and make a tangible difference in our community. During the event, participants will engage in various activities, including picking up litter, planting trees, and restoring flower beds. It’s a great opportunity to enjoy the outdoors while contributing positively to our environment. Not only will you help beautify the park, but you'll also learn about the importance of conservation and how collective action can lead to lasting change. By participating in this event, you’ll not only gain hands-on experience in environmental stewardship but also have the chance to meet like-minded individuals who are passionate about making the world a better place. Remember to wear comfortable clothing and sturdy shoes. All necessary tools and supplies will be provided, and refreshments will be available for all volunteers. Together, we can restore and protect our natural spaces for future generations to enjoy.",
+      "availableSpots": 15,
+      "organizer": "Springfield Green Initiatives",
+      "category": "Cleanup",
+      "registration_link": "https://example.com/event/community-park-cleanup",
+      "image": "community-cleanup.jpg"
+  },
+  {
+      "id": 2,
+      "title": "Food Bank Packaging Drive",
+      "start": new Date(2024, 8, 27, 10, 0),
+      "end": new Date(2024, 8, 27, 14, 0),
+      "location": "City Food Bank, Downtown",
+      "cause": "Hunger Relief",
+      "description": "Be a part of our Food Bank Packaging Drive and make a significant impact on hunger relief efforts in our community. Join us at the City Food Bank, where we will be working tirelessly to pack food supplies for underprivileged families in need. Your participation will help ensure that those facing food insecurity receive nutritious meals. This event will not only focus on packing food boxes but also involve educational sessions on the importance of food security and ways to support local food banks throughout the year. We encourage volunteers from all backgrounds to participate—no experience is necessary, just a willingness to lend a hand. Bring your friends and family, and together we can create a ripple effect of kindness and support. Throughout the day, you will have the opportunity to interact with community members and learn about the various programs the food bank offers to assist those in need. As we work together, we'll foster a sense of community and shared purpose. Light snacks and refreshments will be provided to keep our energy up while we work hard to make a difference.",
+      "availableSpots": 25,
+      "organizer": "Downtown Food Bank",
+      "category": "Hunger Relief",
+      "registration_link": "https://example.com/event/food-bank-packaging-drive",
+      "image": "food-bank.jpg"
+  },
+  {
+      "id": 3,
+      "title": "Senior Center Game Night",
+      "start": new Date(2024, 8, 30, 17, 0),
+      "end": new Date(2024, 8, 30, 19, 0),
+      "location": "Sunrise Senior Living Center",
+      "cause": "Elder Care",
+      "description": "Join us for an uplifting evening at the Senior Center Game Night, where we invite volunteers to engage and socialize with seniors living at the Sunrise Senior Living Center. This event is an opportunity to bring joy to the lives of our elderly community members through games, laughter, and meaningful conversations. Games such as bingo, cards, and board games will be available, catering to all interests and abilities. You don’t need any prior experience; just come with a friendly attitude and an open heart! By participating, you will not only provide companionship to seniors but also learn from their rich life experiences. This event emphasizes the importance of social interaction for seniors, combating loneliness and promoting mental well-being. It’s a fantastic way to bond with individuals who have so much wisdom to share. Refreshments will be served, and we encourage everyone to engage in heartfelt conversations while enjoying the games. Your time and kindness will undoubtedly make a difference, brightening the lives of the seniors we serve.",
+      "availableSpots": 10,
+      "organizer": "Sunrise Senior Living",
+      "category": "Elder Care",
+      "registration_link": "https://example.com/event/senior-center-game-night",
+      "image": "game-night.jpg"
+  },
+  {
+      "id": 4,
+      "title": "Beach Conservation Day",
+      "start": new Date(2024, 9, 2, 8, 0),
+      "end": new Date(2024, 9, 2, 11, 0),
+      "location": "Sunny Beach, Riverview",
+      "cause": "Marine Conservation",
+      "description": "Get ready for a day of fun and impact at our Beach Conservation Day! Join fellow volunteers at Sunny Beach, where we will work together to clean up the shoreline and preserve our beautiful marine environment. This initiative aims to remove litter from the beach, educate the public on the importance of marine conservation, and protect the habitats of countless marine species. Volunteers will be provided with gloves, trash bags, and other necessary equipment to help with the cleanup process. Throughout the day, there will be opportunities to learn about local marine life, the threats they face, and how we can all contribute to conservation efforts. This event is family-friendly, making it a perfect opportunity to involve children and teach them about environmental responsibility. Join us in creating a cleaner, safer beach for everyone to enjoy. Together, we can make a positive impact and promote a culture of respect for our planet. Refreshments will be available for all participants, and we encourage everyone to come dressed comfortably for a day of outdoor work.",
+      "availableSpots": 30,
+      "organizer": "Marine Conservation Society",
+      "category": "Beach Cleanup",
+      "registration_link": "https://example.com/event/beach-conservation-day",
+      "image": "beach-conservation.jpg"
+  },
+  {
+      "id": 5,
+      "title": "School Supplies Donation Drive",
+      "start": new Date(2024, 9, 4, 14, 0),
+      "end": new Date(2024, 9, 4, 16, 0),
+      "location": "Liberty High School, Auditorium",
+      "cause": "Education",
+      "description": "Make a difference in the lives of students in need by joining our School Supplies Donation Drive! This event will take place at Liberty High School, where we will gather to collect, organize, and distribute school supplies to underprivileged students preparing for the new school year. We encourage volunteers to bring along any school supplies they can donate, such as notebooks, pencils, backpacks, and other essential items. If you prefer to help in other ways, we welcome you to assist with organizing the supplies and distributing them to the students. This initiative aims to ensure that every child has access to the tools they need for success in their education. We will also discuss the importance of education and how community support can help bridge the gap for those in need. Refreshments will be provided, and we will create a welcoming environment for everyone involved. Together, we can foster a sense of community and make a lasting impact on the lives of students in our area. Your support can help inspire a love for learning and give children the opportunity to reach their full potential.",
+      "availableSpots": 20,
+      "organizer": "Liberty Education Foundation",
+      "category": "Donation Drive",
+      "registration_link": "https://example.com/event/school-supplies-donation",
+      "image": "school-supplies.jpg"
+  },
+  {
+      "id": 6,
+      "title": "Animal Shelter Volunteer Day",
+      "start": new Date(2024, 9, 6, 11, 0),
+      "end": new Date(2024, 9, 6, 15, 0),
+      "location": "Happy Paws Animal Shelter",
+      "cause": "Animal Welfare",
+      "description": "Calling all animal lovers! Join us for an inspiring Animal Shelter Volunteer Day at Happy Paws Animal Shelter. This event is dedicated to caring for rescued animals and ensuring they have a safe and comfortable environment. Volunteers will have the opportunity to assist with feeding, walking, and cleaning the living areas of the animals in our care. Your support is vital to keeping the shelter running smoothly and ensuring the health and happiness of our furry friends. Throughout the day, you will learn about the shelter's mission, the challenges they face, and how you can continue to support animal welfare in our community. There will be opportunities to interact with the animals, and you'll leave with a greater understanding of the importance of adopting and caring for pets. We encourage everyone to come ready to work hard, and you’ll be rewarded with the unconditional love of the animals you help. Snacks and drinks will be provided to keep our spirits high while we work together for this important cause.",
+      "availableSpots": 12,
+      "organizer": "Happy Paws Animal Shelter",
+      "category": "Animal Welfare",
+      "registration_link": "https://example.com/event/animal-shelter-volunteer-day",
+      "image": "animal-shelter.jpg"
+  },
+  {
+      "id": 7,
+      "title": "Cultural Heritage Festival",
+      "start": new Date(2024, 9, 8, 10, 0),
+      "end": new Date(2024, 9, 8, 18, 0),
+      "location": "Civic Center Plaza",
+      "cause": "Cultural Awareness",
+      "description": "Celebrate diversity and cultural awareness at our annual Cultural Heritage Festival! This vibrant event will take place at Civic Center Plaza, showcasing the rich traditions, art, and heritage of various communities in our area. Volunteers will play a crucial role in helping set up booths, assist with activities, and engage with attendees throughout the day. This festival aims to educate attendees about different cultures through food, music, dance, and art. From traditional performances to hands-on workshops, there's something for everyone to enjoy. Join us in promoting unity and understanding through cultural exchange, fostering a sense of community and respect for our differences. The festival will feature local artisans, food vendors, and performances by cultural groups, making it a lively and enriching experience for all. By volunteering, you’ll help create a welcoming atmosphere and contribute to the success of this celebration. Light refreshments will be available for volunteers, and all ages are welcome to participate in this incredible event. Together, let’s honor our diverse heritage and create connections that last beyond the festival.",
+      "availableSpots": 50,
+      "organizer": "Cultural Unity Association",
+      "category": "Cultural Event",
+      "registration_link": "https://example.com/event/cultural-heritage-festival",
+      "image": "heritage-festival.jpg"
+  },
+  {
+      "id": 8,
+      "title": "Youth Leadership Workshop",
+      "start": new Date(2024, 9, 10, 9, 0),
+      "end": new Date(2024, 9, 10, 15, 0),
+      "location": "Community Center Auditorium",
+      "cause": "Youth Development",
+      "description": "Empower the next generation of leaders by participating in our Youth Leadership Workshop! This workshop will be held at the Community Center Auditorium, focusing on skills such as communication, teamwork, and problem-solving. Designed for young people aged 12-18, this event will provide participants with the tools they need to become effective leaders in their schools and communities. Volunteers will assist in organizing activities, facilitating discussions, and providing mentorship throughout the day. This workshop aims to inspire confidence and leadership skills among youth, encouraging them to take initiative and become active contributors to society. We believe in the potential of young people to drive positive change, and this workshop is a stepping stone towards achieving that goal. Throughout the day, attendees will engage in interactive exercises, participate in group discussions, and hear from guest speakers who will share their leadership journeys. Refreshments will be provided, and all volunteers will receive training and support to ensure a successful experience for everyone involved. Together, let’s cultivate a new generation of leaders who are ready to make a difference!",
+      "availableSpots": 20,
+      "organizer": "Youth Empowerment Coalition",
+      "category": "Youth Development",
+      "registration_link": "https://example.com/event/youth-leadership-workshop",
+      "image": "leadership-workshop.jpg"
+  },
+  {
+      "id": 9,
+      "title": "Mental Health Awareness Walk",
+      "start": new Date(2024, 9, 12, 8, 0),
+      "end": new Date(2024, 9, 12, 11, 0),
+      "location": "City Park, Main Entrance",
+      "cause": "Mental Health",
+      "description": "Join us for a meaningful Mental Health Awareness Walk as we raise awareness and support for mental health initiatives in our community. This event will take place at City Park, starting at the main entrance. Participants will walk together to promote mental health education, reduce stigma, and advocate for resources for those in need. As a volunteer, you will help with registration, distribute informational materials, and support participants throughout the walk. This event aims to foster a supportive community where individuals can openly discuss mental health challenges and seek help. Your involvement can make a significant difference in the lives of those affected by mental health issues. We encourage participants to wear green, the color of mental health awareness, to show solidarity. Light refreshments will be provided, and we will have guest speakers sharing their stories and insights on the importance of mental well-being. Together, let’s walk towards a future where mental health is prioritized, and everyone feels supported.",
+      "availableSpots": 30,
+      "organizer": "Mental Health Awareness Society",
+      "category": "Awareness Event",
+      "registration_link": "https://example.com/event/mental-health-awareness-walk",
+      "image": "mental-health-walk.jpg"
+  },
+  {
+      "id": 10,
+      "title": "Home Renovation Project for Low-Income Families",
+      "start": new Date(2024, 9, 15, 8, 0),
+      "end": new Date(2024, 9, 15, 17, 0),
+      "location": "Various Locations",
+      "cause": "Housing",
+      "description": "Join us for a rewarding Home Renovation Project, where volunteers will work together to improve living conditions for low-income families in our community. This event will involve painting, landscaping, and minor repairs to make homes safer and more welcoming. Volunteers of all skill levels are welcome; whether you have experience in construction or simply a desire to help, your efforts will make a significant impact. Throughout the day, you will learn about the importance of affordable housing and how collective action can uplift families in need. This project not only aims to beautify homes but also fosters a sense of community and support for those facing economic challenges. We will provide all necessary tools and materials, as well as guidance from experienced project leaders. Lunch and refreshments will be offered to all volunteers. Together, we can help families create a better living environment, demonstrating that with compassion and teamwork, we can bring about positive change in our community.",
+      "availableSpots": 40,
+      "organizer": "Community Housing Coalition",
+      "category": "Housing",
+      "registration_link": "https://example.com/event/home-renovation-project",
+      "image": "home-renovation.jpg"
+  }
 ];
