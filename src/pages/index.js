@@ -14,9 +14,9 @@ import ImageCarousel from "@/components/Carausel";
 
 import localFont from "next/font/local";
 
-import banner1 from "../assets/banner1.svg";
-import banner2 from "../assets/banner2.svg";
-import banner3 from "../assets/banner3.svg";
+import Banner1 from "../assets/Banner1.png";
+import Banner2 from "../assets/Banner2.png";
+import Banner3 from "../assets/Banner3.png";
 import volunteer from "../assets/volunteer.svg";
 import vol2 from "../assets/vol2.jpg";
 import vol3 from "../assets/vol3.jpg";
@@ -28,6 +28,7 @@ import ThemeContext from "@/context/ThemeContext";
 import CompareSlider from "@/components/CompareSlider";
 import Link from "next/link";
 import Donation from "@/components/Donation";
+import ContactUs from "@/components/ContactUs";
 
 // Load the fonts
 const AktivGroteskBold = localFont({
@@ -43,7 +44,7 @@ const AktivGroteskRegular = localFont({
 // IF NEEDED :: https://flatuicolors.com/
 
 const index = () => {
-  const tempImages = [banner1, banner2, banner3];
+  const tempImages = [Banner1, Banner2, Banner3];
 
   const [showAnnouncement, setShowAnnouncement] = useState(true);
 
@@ -58,7 +59,7 @@ const index = () => {
         <div className={`overflow-hidden ${neonDark && "bg-[#0d0d0d]"} `}>
           <Header
             text1={"The winner for Minithon is"}
-            text2={"Zucky the Lizard"}
+            text2={"Akhand Bharat"}
             linktext={"switch theme"}
             setNeonDark={setNeonDark}
             neonDark={neonDark}
@@ -312,10 +313,12 @@ const index = () => {
               neonDark={neonDark}
             />
           </div>
-
+          
           <div id="donation">
             <Donation />
           </div>
+          <ContactUs/>  
+
 
           <Footer />
         </div>

@@ -72,7 +72,7 @@ const Header = ({ text1, text2, linktext, tabs, setNeonDark, neonDark }) => {
                         </div>
                         <p className={`text-4xl font-bold ${AktivGroteskBold.className}`}>
                             <Link href={"/"}>
-                                Voluntrix
+                                EarthVision
                             </Link>
                         </p>
                     </div>

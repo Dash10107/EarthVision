@@ -20,8 +20,8 @@ function Donation() {
   };
 
   return (
-    <div className="bg-gradient-to-tr from-fuchsia-300 to-sky-500">
-      <section className="p-4 flex flex-col justify-center min-h-screen max-w-md mx-auto">
+    <div className="bg-gray-300">
+      <section className="p-4 flex flex-col justify-center py-10 max-w-md mx-auto">
         <div className="p-6 bg-sky-100 rounded">
           <div className="flex items-center justify-center font-black m-3 mb-12">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 mr-3 text-red-600 animate-pulse" viewBox="0 0 20 20" fill="currentColor">
