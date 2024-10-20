@@ -106,7 +106,7 @@ const Dashboard = () => {
     <>
       <Header
         text1={"The winner for Minithon is"}
-        text2={"Zucky the Lizard"}
+        text2={"Akhand Bharat"}
         linktext={"profiles"}
         // setNeonDark={setNeonDark}                neonDark={neonDark}
         tabs={[

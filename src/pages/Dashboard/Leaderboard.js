@@ -22,7 +22,7 @@ const Leaderboard = () => {
       <div id="container">
         <Header
           text1={'The winner for Minithon is'}
-          text2={'Zucky the Lizard'}
+          text2={'Akhand Bharat'}
           linktext={'profiles'}
           tabs={[
             { name: 'Home', link: '/' },

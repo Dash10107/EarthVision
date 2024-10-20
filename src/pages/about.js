@@ -1,9 +1,6 @@
 import Header from '@/components/Header'
 import React, { useContext } from 'react'
 
-import banner1 from "../assets/banner1.svg"
-import banner2 from "../assets/banner2.svg"
-import banner3 from "../assets/banner3.svg"
 import HeroTexts from '@/components/HeroTexts'
 import TextImageCard from '@/components/TextImageCard'
 import ThemeContext from '@/context/ThemeContext'
@@ -19,7 +16,7 @@ const about = () => {
         <div id="container" className={` ${neonDark && "bg-[#0d0d0d] text-white"} `}>
             <Header 
                 text1={"The winner for Minithon is"} 
-                text2={"Zucky the Lizard"} 
+                text2={"Akhand Bharat"} 
                 linktext={"profiles"}
                 setNeonDark={setNeonDark}
                 neonDark={neonDark}

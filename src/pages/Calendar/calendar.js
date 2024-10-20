@@ -43,7 +43,7 @@ const CalendarComponent = () => {
       };
 
       return (
-        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text={EVENT_TITLE}&dates={START_DATE}/{END_DATE}&details={EVENT_DESCRIPTION}&location={EVENT_LOCATION}">
+        <a href={`https://calendar.google.com/calendar/render?action=TEMPLATE&text=${title}&dates={START_DATE}/{END_DATE}&details={EVENT_DESCRIPTION}&location={EVENT_LOCATION}`}>
           <div style={eventStyle} className='flex flex-col text-xs p-2 w-auto mx-2'>
             <p>{title}</p>
             <div className='text-xs'>
@@ -77,7 +77,7 @@ const CalendarComponent = () => {
       <div id="container" className={`${neonDark && "bg-[#0d0d0d] text-white"}`}>
         <Header 
           text1={"The winner for Minithon is"} 
-          text2={"Zucky the Lizard"} 
+          text2={"Akhand Bharat"} 
           linktext={"profiles"}
           setNeonDark={setNeonDark}
           neonDark={neonDark}
