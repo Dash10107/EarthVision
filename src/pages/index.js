@@ -14,9 +14,9 @@ import ImageCarousel from "@/components/Carausel";
 
 import localFont from "next/font/local";
 
-import Banner1 from "../assets/Banner1.png";
-import Banner2 from "../assets/Banner2.png";
-import Banner3 from "../assets/Banner3.png";
+import banner1 from "../assets/Banner1.png";
+import banner2 from "../assets/Banner2.png";
+import banner3 from "../assets/Banner3.png";
 import volunteer from "../assets/volunteer.svg";
 import vol2 from "../assets/vol2.jpg";
 import vol3 from "../assets/vol3.jpg";
@@ -44,7 +44,7 @@ const AktivGroteskRegular = localFont({
 // IF NEEDED :: https://flatuicolors.com/
 
 const index = () => {
-  const tempImages = [Banner1, Banner2, Banner3];
+  const tempImages = [banner1, banner2, banner3];
 
   const [showAnnouncement, setShowAnnouncement] = useState(true);
 
