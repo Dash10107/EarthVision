@@ -78,9 +78,6 @@ const CalendarComponent = () => {
         <Header 
           text1={"The winner for Minithon is"} 
           text2={"Akhand Bharat"} 
-          linktext={"profiles"}
-          setNeonDark={setNeonDark}
-          neonDark={neonDark}
           tabs={[
             { name: "Home", link: "/" },
             { name: "About", link: "/about" },
